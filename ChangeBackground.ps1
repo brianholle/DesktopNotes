@@ -40,4 +40,4 @@ namespace Wallpaper
 }
 "@
 
-[Wallpaper.Setter]::SetWallpaper( “C:\Users\Home\Desktop\DesktopNotes\DesktopNotesV2\DesktopNotes.jpg”, 0 )
+[Wallpaper.Setter]::SetWallpaper( “PATH TO PROJECT FOLDER\DesktopNotes.jpg”, 0 )

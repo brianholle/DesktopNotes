@@ -19,5 +19,5 @@ for line in f:
     tmp = tmp+30
     print(line, end='')
 img.save("DesktopNotes.jpg")
-p = subprocess.Popen(["powershell.exe", "C:\\Users\\Home\\Desktop\\DesktopNotes\\DesktopNotesV2\\ChangeBackground.ps1"], stdout=sys.stdout)
+p = subprocess.Popen(["powershell.exe", "PATH TO PROJECT FOLDER\\ChangeBackground.ps1"], stdout=sys.stdout)
 p.communicate()
